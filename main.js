@@ -44,6 +44,7 @@ class Estudiante extends Persona{
     }
 
     Saludar(){
+        super.Saludar(); //puedo llamar el metodo de la clase padre
         console.log(`Hola soy ${this._nombre} y tengo ${this._edad} años y estudio ${this.carrera}`);
     }
 }
